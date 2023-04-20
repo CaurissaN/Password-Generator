@@ -52,8 +52,6 @@ function generatePassword() {
     answer += passwordCriteria[random]
   }
 
-
-
   // use confirm instead of prompt for acceptance criteria about (lower case, upper case, etc)
   return answer
 }
